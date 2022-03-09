@@ -28,7 +28,8 @@ function showMovies(data) {
         <img
           src="https://shikimori.one/${anime.image.original}"
           class="movie__cover"
-          alt="${anime.russian}" />
+          alt="${anime.russian}" 
+          data-test="Для теста"/>
         <div class="movie__cover--darkened"></div>
       </div>
       <div class="movie__info">
